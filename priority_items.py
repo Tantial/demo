@@ -133,6 +133,8 @@ class PriorityItems():
         or that it is read from an Excel or CSV file. This is usually done
         through the `get_client_list` method.
 
+        *Note - The query listed below does not originate from me
+
         Returns
         -------
         pandas DataFrame
