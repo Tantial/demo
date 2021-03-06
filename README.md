@@ -14,4 +14,3 @@ TODO:
   Make a project using Scrapy to collect data from a dynamic website, using css and xpath selectors.
   Something with Spark, using Scala
   Something with design patterns
-  Something with functional programming
