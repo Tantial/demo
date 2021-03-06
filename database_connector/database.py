@@ -178,10 +178,6 @@ class Database:
         result.columns = [x[0] for x in self.cursor.description]
         return result
 
-    def create_table(self, new_table_name):
-        # TODO
-        pass
-
     def show_tables(self):
         self.cursor.execute("SHOW TABLES;")
         return pd.DataFrame(self.cursor.fetchall())
@@ -231,5 +227,4 @@ class Database:
     def close_connection(self):
         self.cursor.close()
         self.con.close()
-
 
