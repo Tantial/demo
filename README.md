@@ -14,3 +14,5 @@ TODO:
   Make a project using Scrapy to collect data from a dynamic website, using css and xpath selectors.
   Something with Spark, using Scala
   Something with design patterns
+  Should probably get an ML/AI projust up here, shouldn't I?
+ 
