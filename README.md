@@ -14,9 +14,3 @@ priority_items.py:
   Was an ETL for a project I was working on. There is private information cut out of it, so I'm not sure how legible it is.
 
 Current Project: Find and crawl a website using Scrapy, utilizing all parts of the framework to handle cookies, login credentials, data storage, dynamic population from Javascript, etc.
-
-TODO:
-Something with Spark, using Scala.
-Something with design patterns.
-Should probably get an ML/AI project up here, shouldn't I?
- 
