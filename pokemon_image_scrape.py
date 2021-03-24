@@ -6,7 +6,7 @@ Created on Mon Jun 24 19:43:47 2019
 
 This script searches serebii.net's Pokemon Black/White Pokedex to download each
 pokemon's sprite image. What you do with that, it's up to you. Maybe use them
-for a Generative Adversarial Network?
+for a GAN?
 """
 # %% Imports
 import os
