@@ -1,4 +1,7 @@
 # demo
+
+**CURRENT PROJECT: Scrape all the images and their metadata from https://www.artbreeder.com/browse using Scrapy + Splash. Currently blocked, because Splash isn't triggering all the JavaScript (even when having Splash wait longer, turning off private browsing, adding a user-agent, enabling full page_view, etc.). Once I figure out how to get the page to fully render in Splash, it should be easy to parse using xpath selectors or json.
+
 A collection of some samples of my code, to be used for demonstration, such as on a resume. Some programs may have been edited to remove private information.
 
 database.py:
@@ -12,5 +15,3 @@ fandom_wikia_image_downloader_03.py:
 
 priority_items.py:
   Was an ETL for a project I was working on. There is private information cut out of it, so I'm not sure how legible it is.
-
-Current Project: Find and crawl a website using Scrapy, utilizing all parts of the framework to handle cookies, login credentials, data storage, dynamic population from Javascript, etc.
