@@ -1,6 +1,6 @@
 # demo
 
-**CURRENT PROJECT: Scrape all the images and their metadata from https://www.artbreeder.com/browse using Scrapy + Splash. Currently blocked, because Splash isn't triggering all the JavaScript (even when having Splash wait longer, turning off private browsing, adding a user-agent, enabling full page_view, etc.). Once I figure out how to get the page to fully render in Splash, it should be easy to parse using xpath selectors or json.
+**CURRENT PROJECT: Scrape all the images and their metadata from https://www.artbreeder.com/browse using Scrapy + Splash. Currently blocked, because Splash isn't triggering all the JavaScript (even when having Splash wait longer, turning off private browsing, adding a user-agent, enabling full page_view, etc.). Once I figure out how to get the page to fully render in Splash, it should be easy to parse using xpath selectors or json. Currently, I believe it's an issue with the headers or possibly redirects, but adding the correct headers and middlewares hasn't worked.
 
 A collection of some samples of my code, to be used for demonstration, such as on a resume. Some programs may have been edited to remove private information.
 
