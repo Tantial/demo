@@ -1,6 +1,8 @@
 # demo
 
-**CURRENT PROJECT: Scrape all the images and their metadata from https://www.artbreeder.com/browse using Scrapy + Splash. Currently blocked, because Splash isn't triggering all the JavaScript (even when having Splash wait longer, turning off private browsing, adding a user-agent, enabling full page_view, etc.). Once I figure out how to get the page to fully render in Splash, it should be easy to parse using xpath selectors or json. Currently, I believe it's an issue with the headers or possibly redirects, but adding the correct headers and middlewares hasn't worked.
+**CURRENT PROJECT: Scrape all the images and their metadata from https://www.artbreeder.com/browse using Scrapy + Splash. Currently blocked, because Splash isn't triggering all the JavaScript (even when having Splash wait longer, turning off private browsing, adding a user-agent, enabling full page_view, etc.). Once I figure out how to get the page to fully render in Splash, it should be easy to parse using xpath selectors or json.
+So far, I've messed around with the lua script, headers, cookies, checked around to learn more about how http works, tried different middleware packages, all kinds of stuff. So far it's still only loading the page headers. I'm having trouble finding where it separates Splash from a regular web browser. When I render the page in Splash, it usually returns either 200 or 304 status codes, and usually one 401 status code somewhere depending on the header configurations. I've certainly learned a lot about how the internet works since starting on this project, but clearly I haven't learned enough yet.
+
 
 A collection of some samples of my code, to be used for demonstration, such as on a resume. Some programs may have been edited to remove private information.
 
